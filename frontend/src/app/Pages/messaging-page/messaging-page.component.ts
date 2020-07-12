@@ -24,8 +24,9 @@ export class MessagingPageComponent implements OnInit {
     ngOnInit(): void {
     }
 
-  changeTheSeacherdUser(user : string){
+  changeTheSeacherdUser(user : string, chatname : string){
     localStorage.setItem("searchedUser", user);
+    localStorage.setItem("chatName", chatname);
   }  
 
 }

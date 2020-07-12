@@ -10,10 +10,15 @@ export class BasicelementsComponent implements OnInit {
     doubleSlider = [20, 60];
     state_default: boolean = true;
     focus: any;
+    currentUser : String;
 
     constructor() { 
     }
 
     ngOnInit() {}
+
+    setTheUser(user){
+      localStorage.setItem('currentUser',user)
+    }
 
 }

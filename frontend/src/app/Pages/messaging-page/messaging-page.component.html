@@ -58,7 +58,7 @@
         <section>
           <ul class="room-list">
             <li  style="margin-bottom: 25px;" *ngFor="let chatitems of chats | async">
-              <div class="room" *ngIf="chatitems.chatname!=null" (click)=changeTheSeacherdUser(chatitems.guestUser) routerLink="/pages/chatpage">
+              <div class="room" *ngIf="chatitems.chatname!=null" (click)=changeTheSeacherdUser(chatitems.guestUser,chatitems.chatname) routerLink="/pages/chatpage">
                 <span class="room-name">{{chatitems.chatname}}</span>
               </div>
             </li>

@@ -14,7 +14,7 @@ export class ChatPageComponent implements OnInit {
   currentUser = localStorage.getItem("currentUser");
   searchedUser = localStorage.getItem("searchedUser");
   newMessage : String;
-  chatName : String = this.currentUser + " To " + this.searchedUser;
+  chatName : String = localStorage.getItem("chatName");
   existChatName : Observable<any>;
   currUser : Observable<any>;
   flag : boolean = false;

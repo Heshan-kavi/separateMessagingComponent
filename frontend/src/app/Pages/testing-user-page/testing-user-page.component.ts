@@ -37,8 +37,10 @@ export class TestingUserPageComponent implements OnInit {
     printTheButton(username : String){
       console.log(username);
       this.searchedUser = username;
-      localStorage.setItem("currentUser", "Heshan");
       localStorage.setItem("searchedUser", this.searchedUser);
+      const currUser = localStorage.getItem("currentUser");
+      const chat = currUser + " To " + this.searchedUser;
+      localStorage.setItem("chatName", chat);
     }
   
     onSubmit(){
