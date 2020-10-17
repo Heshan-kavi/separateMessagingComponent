@@ -2,10 +2,11 @@
     <div class="container">
         <div class="tim-title">
             <h2>Select the user</h2>
+            <h6>Enter the username and click login to log as the user</h6>
         </div>
 
         <input type="text" placeholder="Enter a user name" [(ngModel)]="currentUser">
-        <button type="button" style="margin-left: 20px;" class="btn btn-danger btn-round" routerLink="/pages/testingUserPage" (click)="setTheUser(currentUser)">messaging</button>
+        <button type="button" style="margin-left: 20px;" class="btn btn-danger btn-round" routerLink="/pages/testingUserPage" (click)="setTheUser(currentUser)">Login</button>
 
     </div>
 </div>

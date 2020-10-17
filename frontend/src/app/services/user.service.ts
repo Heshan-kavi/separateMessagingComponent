@@ -11,6 +11,6 @@ export class UserService {
   constructor(private http : HttpClient) { }
 
   getusers(): Observable<any>{
-    return this.http.get<any>('http://localhost:3000/users')
+    return this.http.get<any>('http://localhost:3003/users')
   }
 }

@@ -48,7 +48,7 @@ input[type="text"] {
     flex-basis: 15%;
     flex-shrink: 0;
     flex-grow: 0;
-    background: linear-gradient(#f96535, #000000);
+    background: linear-gradient(#04579b, #000000);
     color: #fff;
     padding: 10px 10px;
 }
@@ -92,7 +92,7 @@ input[type="text"] {
 }
 
 .room:hover {
-    background-color: #f9d34f;
+    background-color: #55b0fa;
     color: #333;
 }
 
@@ -194,7 +194,7 @@ input[type="text"] {
     border-radius: 20px;
     border-width: 3px;
     padding: 15px;
-    background-color: #f96535;
+    background-color: #04579b;
     position: relative;
     right: -400px;
     text-align: right;
@@ -203,7 +203,7 @@ input[type="text"] {
 .user-message-reciever {
     margin-top: 10px;
     width: 60%;
-    border-color: #fd4608;
+    border-color: #04579b;
     border-style: solid;
     border-radius: 20px;
     border-width: 3px;
